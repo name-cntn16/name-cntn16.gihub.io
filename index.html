@@ -156,7 +156,16 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
-
+	<script>
+		map.setCenter(new google.maps.LatLng(10.875994,106.7961296));
+var newLatLng = new google.maps.LatLng(10.875994,106.7961296);
+var image = 'img/map-marker.png';
+ var newMarker = new google.maps.Marker({
+        position: newLatLng1,
+        map: map,
+        icon: image
+    });
+	</script>
 </body>
 
 </html>
